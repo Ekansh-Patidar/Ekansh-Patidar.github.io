@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekansh Patidar - Product Management & Engineering</title>
+    <meta name="description"
+        content="MTech @ IIIT Hyderabad | Product Manager & Full-Stack Developer specializing in user-centric products and technical execution">
+    <meta name="keywords"
+        content="Product Management, Software Engineering, Full-Stack Developer, IIIT Hyderabad, MERN Stack">
+    <meta property="og:title" content="Ekansh Patidar - Product + Engineering Portfolio">
+    <meta property="og:description" content="MTech @ IIIT Hyderabad | Product Manager & Full-Stack Developer">
+    <meta property="twitter:title" content="Ekansh Patidar - Product + Engineering Portfolio">
+    <meta property="twitter:description" content="MTech @ IIIT Hyderabad | Product Manager & Full-Stack Developer">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+        @layer theme {
+        :root {
+            --primary-color: #14b8a6;
+            --primary-gradient: linear-gradient(135deg, #14b8a6 0%, #2563eb 100%);
+            --secondary-color: rgba(20, 184, 166, 0.15);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --bg-color: #0a0f1a;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.8);
+            --border-color: rgba(20, 184, 166, 0.2);
+            --glow-color: rgba(20, 184, 166, 0.4);
+        }
+    }
+
+    @layer base {
+        body {
+            @apply bg-[var(--bg-color)] text-[var(--text-primary)] font-sans antialiased;
+            background-image: 
+                radial-gradient(ellipse at 20% 20%, rgba(20, 184, 166, 0.06) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, rgba(37, 99, 235, 0.04) 0%, transparent 50%);
+            min-height: 100vh;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-bold;
+        }
+
+        ::selection {
+            background: rgba(20, 184, 166, 0.3);
+            color: #fff;
+        }
+    }
+
+    @layer utilities {
+        .section-padding {
+            @apply py-20 px-6;
+        }
+
+        .gradient-text {
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .glass-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-color);
+        }
+
+        .glow-effect {
+            box-shadow: 0 0 20px var(--glow-color), 0 0 40px rgba(20, 184, 166, 0.1);
+        }
+
+        .gradient-btn {
+            background: var(--primary-gradient);
+            transition: all 0.3s ease;
+        }
+
+        .gradient-btn:hover {
+            box-shadow: 0 4px 20px var(--glow-color);
+            transform: translateY(-2px);
+        }
+
+        .gradient-border {
+            position: relative;
+        }
+
+        .gradient-border::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            padding: 1px;
+            background: var(--primary-gradient);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            border-radius: inherit;
+            pointer-events: none;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Navigation.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/Education.js"></script>
+    <script type="text/babel" src="components/Experience.js"></script>
+    <script type="text/babel" src="components/Projects.js"></script>
+    <script type="text/babel" src="components/Skills.js"></script>
+    <script type="text/babel" src="components/Achievements.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+
+</html>
