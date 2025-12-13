@@ -4,7 +4,7 @@ function Education() {
             {
                 degree: 'M.Tech, Product Design and Management',
                 institution: 'International Institute of Information Technology, Hyderabad (IIIT-H)',
-                duration: 'July 2024 – Present',
+                duration: 'August 2025 – Present',
                 details: null,
                 icon: 'graduation-cap',
                 current: true
