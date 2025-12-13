@@ -35,7 +35,7 @@ function Projects() {
         tagline: 'Understanding how people navigate everyday walking challenges in Indian cities.',
         type: 'UX Research',
         image: 'assets/pedestrian-research.png',
-        researchStack: ['Field Observation', 'Photo Documentation', 'Google Forms Survey', 'Likert-Scale Evaluation', 'Crossing-Time Measurement', 'Mixed-Method Analysis', 'Secondary Research', 'Synthesis Framework'],
+        researchStack: ['Field Observation', 'Photo Documentation', 'Google Forms Survey', 'Likert-Scale Evaluation', 'Crossing-Time Measurement', 'Mixed-Method Analysis', 'Secondary Research'],
         description: 'This study examines how pedestrians experience everyday walking and road-crossing challenges in Indian cities. Through mixed-method research, we uncovered how broken footpaths, unsafe crossings, and vehicle-centric design affect safety, emotions, and behavior. The project highlights key problem areas and offers user-centered recommendations for more walkable, inclusive urban spaces.',
         icon: 'map-pin',
         // ADD YOUR DRIVE LINK HERE
@@ -46,7 +46,7 @@ function Projects() {
         tagline: 'Understanding visitor onboarding at IIIT Hyderabad',
         type: 'Design Thinking',
         image: 'assets/eventassist.png',
-        researchStack: ['User Interviews', 'Journey Mapping', 'Empathy Mapping', 'Affinity Mapping', 'Down-Selection', 'Figma', 'Miro', 'Low-Fidelity Prototyping'],
+        researchStack: ['User Interviews', 'Journey Mapping', 'Empathy Mapping', 'Affinity Mapping', 'Down-Selection', 'Low-Fidelity Prototyping'],
         description: 'This project explores how visitors experience the IIIT Hyderabad campus. Through interviews, journey mapping, and synthesis, we first mapped the broad challenges faced by all visitors and then narrowed the focus to event attendees and parents. The research highlights issues across navigation, clarity, registration, and communication, leading to a concept aimed at making campus visits smoother and more supportive.',
         icon: 'users',
         // ADD YOUR DRIVE LINK HERE
@@ -57,7 +57,7 @@ function Projects() {
         tagline: 'Analyzing how Canva scales from beginner-friendly design to a professional creative ecosystem.',
         type: 'Product Strategy',
         image: 'assets/canva-strategy.png',
-        researchStack: ['Product Teardown', 'Market Sizing (TAM/SAM/SOM)', 'Competitive Benchmarking', 'User Segmentation', 'Value Proposition Analysis', 'GTM Strategy', 'Risk Assessment', 'KPI Definition', 'Roadmapping'],
+        researchStack: ['Product Teardown', 'Market Sizing (TAM/SAM/SOM)', 'User Segmentation', 'Value Proposition Analysis', 'GTM Strategy', 'Risk Assessment'],
         description: 'This case study examines Canva shift from a beginner-friendly design tool to a scalable professional ecosystem. Through product analysis, market research, competitive positioning, and GTM strategy evaluation, the study identifies how Canva can grow into underserved advanced user segments while maintaining its simplicity for beginners. The work includes risks, opportunities, and a phased roadmap for sustainable expansion.',
         icon: 'trending-up',
         // ADD YOUR DRIVE LINK HERE
@@ -68,7 +68,7 @@ function Projects() {
         tagline: 'Understanding Canva path to product-market fit',
         type: 'PMF Analysis',
         image: 'assets/canva-pmf.png',
-        researchStack: ['Product-Market Fit Pyramid', 'User Needs Analysis', 'Value Proposition Mapping', 'Growth Metrics Study', 'Market Segmentation', 'Freemium Model Review'],
+        researchStack: ['Product-Market Fit Pyramid', 'Value Proposition Mapping', 'Growth Metrics Study', 'Market Segmentation', 'Freemium Model Review'],
         description: 'This case study examines how Canva achieved strong product-market fit by closing the gap between complex professional tools and overly basic alternatives. Through the PMF Pyramid, user needs, value proposition, and feature strategy were analyzed to understand how Canva democratized design for millions. The study also explores Canva growth engine, timing advantages, and evolution from serving non-designers to enterprise teams.',
         icon: 'target',
         // ADD YOUR DRIVE LINK HERE
